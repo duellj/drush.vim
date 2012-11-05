@@ -3,7 +3,8 @@ Drush support in Vim
 
 Currently provides two functions:
 
-1. `DrushHook [hook]`
+`DrushHook [hook]`
+------------------
 
 Searches current Drupal install for implementations of the passed hook, e.g.
 
@@ -11,7 +12,8 @@ Searches current Drupal install for implementations of the passed hook, e.g.
 
 will find all active implementations of `hook_menu`.
 
-2. `DrushVariable [variable]`
+`DrushVariable [variable]`
+--------------------------
 
 Gets a list of variables and values and formats them in `variable_set`s.
 `[variable]` argument can be a wild card, e.g.
